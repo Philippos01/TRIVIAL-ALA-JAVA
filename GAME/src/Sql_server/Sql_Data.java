@@ -30,7 +30,7 @@ public class Sql_Data {
 		
 		 ResultSet rs0;
 			Statement stmt0 = connection.createStatement();
-		rs0 = stmt0.executeQuery("SELECT number_of_quest FROM dbo.quest1");
+		rs0 = stmt0.executeQuery("SELECT number_of_quest FROM dbo.easy.mode");
 		int v = 0;
 		//System.out.println("the index of question is:");
 		while (rs0.next()) {
@@ -40,7 +40,7 @@ public class Sql_Data {
 		
         ResultSet rs;
 		Statement stmt = connection.createStatement();
-		rs = stmt.executeQuery("SELECT quest1 FROM dbo.quest1");
+		rs = stmt.executeQuery("SELECT quest1 FROM dbo.easy.mode");
 		int i = 0;
 		//System.out.println("questions:");
 		while (rs.next()) {
@@ -50,7 +50,7 @@ public class Sql_Data {
 		}
 		   ResultSet rs1;
 			Statement stmt1 = connection.createStatement();
-		rs1 = stmt1.executeQuery("SELECT ans1 FROM dbo.quest1");
+		rs1 = stmt1.executeQuery("SELECT ans1 FROM dbo.easy.mode");
 		int j = 0;
 		//System.out.println("\n\nfirst answer:");
 		while (rs1.next()) {
@@ -60,7 +60,7 @@ public class Sql_Data {
 		}
 		   ResultSet rs2;
 			Statement stmt2 = connection.createStatement();
-		rs2 = stmt2.executeQuery("SELECT ans2 FROM dbo.quest1");
+		rs2 = stmt2.executeQuery("SELECT ans2 FROM dbo.easy.mode");
 		int a = 0;
 		//System.out.println("\n\nsecond answer:");
 		while (rs2.next()) {
@@ -70,7 +70,7 @@ public class Sql_Data {
 		}
 		   ResultSet rs3;
 			Statement stmt3 = connection.createStatement();
-		rs3 = stmt3.executeQuery("SELECT ans3 FROM dbo.quest1");
+		rs3 = stmt3.executeQuery("SELECT ans3 FROM dbo.easy.mode");
 		int b = 0;
 		//System.out.println("\n\nthird answer:");
 		while (rs3.next()) {
@@ -80,7 +80,7 @@ public class Sql_Data {
 		}
 		   ResultSet rs4;
 			Statement stmt4 = connection.createStatement();
-		rs4 = stmt4.executeQuery("SELECT final_ans FROM dbo.quest1");
+		rs4 = stmt4.executeQuery("SELECT final_ans FROM dbo.easy.mode");
 		int c = 0;
 		//System.out.println("\n\nthe right answer is:");
 		while (rs4.next()) {
