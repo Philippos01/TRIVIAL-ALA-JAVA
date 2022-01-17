@@ -1,7 +1,7 @@
 # TRIVIAL-ALA-JAVA
 A simple TRIVIAL QUIZ GAME about history and mythology that is built exclusively with java.
 
-1)Υστερα απο εγκατάσταση των αρχειων .java του αποθετηριού εκτελσεστε στο command prompt window την ακολουθη εντολη-->javac -encoding ISO-8859-1  QUIZ_PCK/*.java Sql_server/*.java ---->Υστερα απο την μεταγλωττιση και προκειμενου να τρέξετε το παιχνιδι εκτελεστε στο cmd---->java QUIZ_PCK.MAIN(Ετσι γινεται trigger η main και αρχίζει να εκτελειται το παιχνιδι μας).
+1)Οδηγίες Μεταγλώτισσης:Υστερα απο εγκατάσταση των αρχειων .java του αποθετηριού εκτελσεστε στο command prompt window την ακολουθη εντολη-->javac -encoding ISO-8859-1  QUIZ_PCK/*.java Sql_server/*.java ---->Υστερα απο την μεταγλωττιση και προκειμενου να τρέξετε το παιχνιδι εκτελεστε στο cmd---->java QUIZ_PCK.MAIN(Ετσι γινεται trigger η main και αρχίζει να εκτελειται το παιχνιδι μας).
 
 2)Οδηγιες Εκτέλεσης:Download TRIVIAL_ALA_JAVA jar from Initial Release---->open command prompt---->write java -jar TRIVIAL_ALA_JAVA.jar
 
